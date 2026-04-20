@@ -10,7 +10,7 @@ public class TheMainScreen {
             .the("man screen indicator")
             .located(AppiumBy.xpath("//android.widget.TextView[@text=\"Productos\"]"));
 
-    public static Question<Boolean> isVisible(){
+    public static Question<Boolean> isVisible() {
         return Visibility.of(HOME_INDICATOR).asBoolean();
     }
 }
