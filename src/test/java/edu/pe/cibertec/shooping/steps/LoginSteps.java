@@ -15,7 +15,7 @@ public class LoginSteps {
     private String password;
 
     @Given("Andrea opens the shopping Cart application")
-    public void opensTheShoopingCartApplication() {
+    public void opensTheShoppingCartApplication() {
         Actor andrea = OnStage.theActorCalled("Andrea");
 
     }

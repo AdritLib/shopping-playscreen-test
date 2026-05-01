@@ -17,4 +17,7 @@ public class ProductsScreen {
                 .located(AppiumBy.xpath("//android.widget.TextView[@text='" + productName + "']"));
     }
 
+    public static final Target ADD_PRODUCT_BUTTON = Target.the("first product on list button")
+            .located(AppiumBy.xpath("(//android.view.View[@content-desc='Agregar al carrito'])[1]/following-sibling::android.widget.Button[1]"));
+
 }
